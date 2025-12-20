@@ -1,0 +1,8 @@
+.form-control {
+    width: 95%;
+}
+
+
+form>div {
+    padding-top: 10px;
+}

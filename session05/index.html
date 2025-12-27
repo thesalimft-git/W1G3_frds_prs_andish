@@ -10,13 +10,20 @@
 
 <body>
 
-    <form method="get">
+    <form method="post" action="/register">
         <div>
             <label for="username">
                 Username
             </label>
             <input class="form-control" type="text" id="username" name="username">
         </div>
+        <div>
+            <label for="email">
+                Email
+            </label>
+            <input class="form-control" type="email" id="email" name="email">
+        </div>
+
         <div>
             <label for="password">
                 Password
@@ -32,6 +39,23 @@
             </div>
         </div>
         <hr>
+
+        <div>
+            <label for="email">
+                remember me
+            </label>
+            <input  type="Checkbox" id="file" name="email">
+            <label for="email">
+                get notification
+            </label>
+            <input  type="Checkbox" id="file" name="email">
+            <label for="email">
+                register device
+            </label>
+            <input  type="Checkbox" id="file" name="email">
+        </div>
+<input type="hidden">
+
         <div>
             <button type="submit">Submit</button>
         </div>

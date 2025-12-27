@@ -1,8 +1,39 @@
-.form-control {
-    width: 95%;
+@font-face {
+    font-family: iransans;
+    src: url(../fonts/IRANSansWeb.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, * {
+    font-family: iransans, arial, Tahoma, sans-serif;
 }
 
 
-form>div {
-    padding-top: 10px;
+
+label {
+    display: inline-block;
+    min-width: 100px;
+}
+
+
+
+.btn {
+    background-color: rgba(27, 27, 255, 0.822);
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    padding: 3px 20px;
+}
+
+
+form>div{
+    margin: 15px 2px;
+}
+
+
+.form-area {
+    background-color: rgb(234, 234, 234);
+    padding: 30px 10px;
+    border-radius: 10px;
 }

@@ -1,0 +1,38 @@
+.d-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 30px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    text-wrap: nowrap;
+}
+
+
+@media screen and (max-width: 576px){
+    .d-sm-none {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 720px){
+    .d-md-block {
+        display: block;
+    }
+}
+
+
+@media screen and (min-width: 721px){
+    .d-lg-none {
+        display: none;
+    }
+}
